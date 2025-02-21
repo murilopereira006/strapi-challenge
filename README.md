@@ -4,9 +4,9 @@ Este desafio tem como objetivo avaliar sua capacidade de trabalhar com o Strapi 
 
 Criar uma API no Strapi com as seguintes tabelas:
 
-Post: representa um post de um autor(usuário).
+*Post*: representa um post de um autor(usuário).
 
-Comment: representa um comentário de um post, feito por um usuário com data e hora.
+*Comment*: representa um comentário de um post, feito por um usuário com data e hora.
 
 Configurar relacionamentos adequados entre as tabelas.
 
