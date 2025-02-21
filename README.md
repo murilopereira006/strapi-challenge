@@ -18,3 +18,7 @@ No painel administrativo, ao editar um post, exibir os comentários relacionados
 - Código simples, less code
 - Documentação e setup
 - Velocidade da entrega
+
+# Entrega
+
+Deverá criar um fork com um pull request para este repositório.
