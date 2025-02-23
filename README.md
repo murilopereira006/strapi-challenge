@@ -18,11 +18,11 @@ Um projeto Strapi para gerenciamento de conteúdo. Este guia ajudará você a co
    git clone https://github.com/seuuser/strapi-project.git
    cd strapi-project
    ```
-2. **Instale as dependências:**:
+2. **Instale as dependências:**
    ```bash
    npm install
    ```
-2. **Instale as dependências:**:
+2. **Instale as dependências:**
    ```bash
    npm install
    ```
@@ -62,6 +62,6 @@ Painel Admin: http://localhost:1337/admin
    - Expanda qualquer endpoint, clique em **Try it out** e preencha os parâmetros necessários.
    - Exemplo de uso após autenticação:  
      ```http
-     GET /api/posts
+     POST /api/posts
      ```
 ---
