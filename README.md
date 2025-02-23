@@ -7,7 +7,7 @@ Um projeto Strapi para gerenciamento de conteúdo. Este guia ajudará você a co
 ![SQLite](https://img.shields.io/badge/database-sqlite3-lightgrey)
 
 ## 📋 Pré-requisitos
-- Node.js 22.x ou superior
+- Node.js 20.x ou superior
 - npm 6.x ou superior
 
 ---
