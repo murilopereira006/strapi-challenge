@@ -3,7 +3,7 @@
 Um projeto Strapi para gerenciamento de conteúdo. Este guia ajudará você a configurar, executar e explorar a API.
 
 ![Strapi Version](https://img.shields.io/badge/strapi-5.10.3-blue)
-![Node Version](https://img.shields.io/badge/node-%3E%3D22.0.0-brightgreen)
+![Node Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen)
 ![SQLite](https://img.shields.io/badge/database-sqlite3-lightgrey)
 
 ## 📋 Pré-requisitos
@@ -15,14 +15,13 @@ Um projeto Strapi para gerenciamento de conteúdo. Este guia ajudará você a co
 ## 🛠️ Configuração Inicial
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seuuser/strapi-project.git](https://github.com/murilopereira006/strapi-challenge.git
+   git clone https://github.com/seuuser/strapi-project.git
    cd strapi-project
+   cd strapi
    ```
-2. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
-2. **Instale as dependências:**
+2. **Configure o servidor:**
+   Siga o exemplo de .env.example para montar o arquivo .env
+2. **Instale as dependências e rode o projeto:**
    ```bash
    npm install
    ```
@@ -30,7 +29,7 @@ Um projeto Strapi para gerenciamento de conteúdo. Este guia ajudará você a co
 ## ▶️ Execução
 **Start Strapi**:
    ```bash
-   npm run start
+   npm run dev
    ```
 Painel Admin: http://localhost:1337/admin
 (Crie um usuário superadmin na primeira execução)
