@@ -76,7 +76,7 @@ const CommentModal = ({
           ) : (
             <div className="comments-list">
               {
-              comments ?
+              comments && comments.length > 0 ?
               comments.map((comment) => (
                 <div key={comment.id} className="comment-item">
                   <div className="comment-header">
