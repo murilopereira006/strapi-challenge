@@ -1,15 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Cross, ArrowLeft, ArrowRight, Loader } from '@strapi/icons';
 
-import './CommentModal.css';
-
-type Comment = {
-  id: string;
-  content: string;
-  user: { name: string};
-  post?: any;
-  createdAt: string;
-}
+import { CommentType } from '../../helpers/types';
+import './styles.css';
 
 type CommentModalProps = {
   isOpen: boolean;
@@ -17,7 +10,7 @@ type CommentModalProps = {
   currentPage: number;
   totalPages: number;
   onPageChange: (page: number) => void;
-  comments?: Comment[];
+  comments?: CommentType[];
   loading?: boolean;
 }
 
@@ -80,7 +73,7 @@ const CommentModal = ({
               comments.map((comment) => (
                 <div key={comment.id} className="comment-item">
                   <div className="comment-header">
-                    <span className="author-name">{comment.user.name}</span>
+                    <span className="author-name">{comment.name ?? "Anonymos"}</span>
                     <span className="comment-date">
                       {new Date(comment.createdAt).toLocaleDateString()}
                     </span>
