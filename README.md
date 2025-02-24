@@ -15,7 +15,7 @@ Um projeto Strapi para gerenciamento de conteúdo. Este guia ajudará você a co
 ## 🛠️ Configuração Inicial
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seuuser/strapi-project.git
+   git clone https://github.com/murilopereira006/strapi-challenge.git
    cd strapi-project
    cd strapi
    ```
