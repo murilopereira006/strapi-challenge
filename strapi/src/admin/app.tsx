@@ -2,6 +2,7 @@ import { useLocation } from 'react-router-dom';
 
 import type { StrapiApp } from '@strapi/strapi/admin';
 import { Button } from '@strapi/design-system';
+import { Message } from '@strapi/icons';
 
 const ViewCommentsButtonWrapper = () => {
   const location = useLocation();
@@ -11,7 +12,7 @@ const ViewCommentsButtonWrapper = () => {
   }
 
   return (
-    <Button onClick={() => {/* Your logic here */}}>
+    <Button onClick={() => {/* Your logic here */}} fullWidth={true} startIcon={<Message/>}>
       View Comments
     </Button>
   );
